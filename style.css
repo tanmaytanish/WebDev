@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.img-1{
+    width: 120px;
+    height: 100px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+
+.button1{
+    text-align: center;
+}
+
+.nav-bar{
+    background-color: aquamarine;
+}
+.nav-icon{
+    text-align: center;
+}
