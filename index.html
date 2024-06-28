@@ -1,47 +1,59 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <title>Animal</title>
-</head>
-<body style="background-color: aliceblue">
-    <h1>All animals can walk</h1> 
-    <img
-    src="https://c02.purpledshub.com/uploads/sites/62/2022/01/GettyImages-534978766-e950348.jpg?webp=1&w=1200"
-    height="100"/>
-    <p>Animals are more sensitive than humans</p>
-    <div
-        style="
-        display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0);"
-    ></div>
-    <form action="submit-form.php" method="post">
-        <label for="name">Name:</label>
-        <input type="email" id="email"  required /><br />
-        <label for="message">Message:</label><br />
-        <input type="text" required />
-        <button type="submit">Submit</button>
-     </form>
-     <form action="submit-form.php" method="post">
-     </form>
-     <ol>
-        <li>
-            <a
-            href="https://www.google.com/imgres?q=tiger&imgurl=https%3A%2F%2Ffiles.worldwildlife.org%2Fwwfcmsprod%2Fimages%2FTiger_resting_Bandhavgarh_National_Park_India%2Fhero_small%2F6aofsvaglm_Medium_WW226365.jpg&imgrefurl=https%3A%2F%2Fwww.worldwildlife.org%2Fspecies%2Ftiger&docid=V7d3lFgXfu8H2M&tbnid=DkxTrO5ibg3cjM&vet=12ahUKEwiQ4oWK8PuGAxXB1zgGHRiYAxoQM3oECBYQAA..i&w=640&h=480&hcb=2&itg=1&ved=2ahUKEwiQ4oWK8PuGAxXB1zgGHRiYAxoQM3oECBYQAA"
-            >Tiger</a>
-        </li>
-        <li>
-            <a
-            href="https://www.google.com/imgres?q=lion&imgurl=https%3A%2F%2Fc02.purpledshub.com%2Fuploads%2Fsites%2F62%2F2019%2F10%2FFederico_Veronesi_Lions-cover-image-e359a4e.jpg&imgrefurl=https%3A%2F%2Fwww.discoverwildlife.com%2Fanimal-facts%2Fmammals%2Ffacts-about-lions&docid=kZEa8JNU9HPtRM&tbnid=G4-HjwOEhdkbXM&vet=12ahUKEwjigP7L8PuGAxVzyjgGHeitBdIQM3oECFEQAA..i&w=3710&h=4000&hcb=2&ved=2ahUKEwjigP7L8PuGAxVzyjgGHeitBdIQM3oECFEQAA"
-            >Lion</a>
-        </li>
-        <li>
-            <a
-            href="https://www.google.com/imgres?q=zebra&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F60%2FEquus_quagga.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGrant%2527s_zebra&docid=F69C57VFhd9k0M&tbnid=LA9yaRT5JcNuXM&vet=12ahUKEwialNXr8PuGAxWEyzgGHfZEDcsQM3oECBUQAA..i&w=3008&h=2000&hcb=2&ved=2ahUKEwialNXr8PuGAxWEyzgGHfZEDcsQM3oECBUQAA"
-            >Zebra</a>
-        </li>
-     </ol>
-    
+  <title>Home</title>
 
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #000;
+      color: #fff;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .image {
+      position: relative;
+      width: 80%;
+      margin: 0 auto;
+    }
+    .image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .link {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .link a {
+      color: #fff;
+      background-color: #000000;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .link a:hover {
+      background-color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="image">
+      <img src="https://4kwallpapers.com/images/walls/thumbs_3t/1732.jpg" alt="Homepage Image">
+      <div class="link">
+        <a href="contact_us.html">Get in Touch</a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
