@@ -26,3 +26,8 @@
 .nav-icon{
     text-align: center;
 }
+p{
+    padding: 50px;
+    margin: 20px;
+    border: 1px solid red;
+}
