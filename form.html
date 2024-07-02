@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+        <style>
+            h2 {
+                margin: 0.5%;
+                margin-top: 1.5%;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="border: 1px solid red" class="form">
+            <h1></h1>
+
+            <h2>Name</h2>
+            <input type="text" placeholder="Example:Tanmay Sahoo" />
+
+            <h2>Contact Number</h2>
+            <input type="number" placeholder="+91##########" />
+
+            <h2>Gender</h2>
+            <input type="radio" checked id="Prefer not to say" name="Gender" />
+            <label for="Male">Prefer not to say</label>
+            <input type="radio" id="male" name="Gender" />
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="Gender" />
+            <label for="Female">Female</label>
+
+            <h2>DOB</h2>
+            <input type="date" />
+
+            <h2></h2>
+
+            <h2>Email</h2>
+            <input type="email" placeholder="xyz@abc.com" />
+
+            <h2>Password</h2>
+            <input type="password" placeholder="Example:Xyz@123" />
+            <ul></ul>
+            <input type="reset" style="margin: 20px" />
+            <input type="submit" style="border-radius: 20px; width: 70px; background-color: chartreuse" />
+        </div>
+    </body>
+</html>

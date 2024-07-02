@@ -1,0 +1,20 @@
+Justify-content = left to right(Space)
+allign-items = top to bottom(Items)
+
+ Priority
+1.inline
+2.id
+3.class
+4.tag selector
+5.universal
+
+> = Child selector
+div > h1{
+}(selects h1 inside any div) 
+
++ = Adjacent Sibling
+div + h1{
+}
+
+repeat -> divides equally
+fr -> fraction

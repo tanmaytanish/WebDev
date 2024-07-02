@@ -31,3 +31,23 @@ p{
     margin: 20px;
     border: 1px solid red;
 }
+
+.form{
+    margin: 80px;
+}
+
+.form-button{
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(40, 237, 158);
+    font-size: 20px;
+    font-style: italic;
+
+}
+.form-button2{
+    margin-top: 6%;
+    text-align: center;
+    /* background-color: aqua; */
+
+}
